@@ -1,0 +1,13 @@
+
+
+<div class="card" style="width: 18rem;"  *ngFor ="let factura of facturas" >
+    <div class="card-body">
+      <h5 class="card-title">factura</h5>
+      <h6 class="card-subtitle mb-2 text-muted"> {{factura.id_factura}}</h6>
+      <p class="card-text">
+        {{factura.id_cliente}}
+      </p>
+      <a href="#" class="card-link">fecha</a>
+      <a href="#" class="card-link">{{factura.fecha}}</a>
+    </div>
+  </div>
